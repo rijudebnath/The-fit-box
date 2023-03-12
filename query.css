@@ -1,0 +1,191 @@
+/* max-width 1280px */
+
+@media(max-width:80em) {
+    .container {
+        max-width: 90%;
+        margin: auto;
+    }
+
+}
+
+@media(max-width: 68.5em) {
+    .navbar {
+        gap: 2.6rem
+    }
+
+    .para {
+        margin-bottom: 2rem;
+    }
+
+    .primary-heading {
+        font-size: 6rem;
+    }
+
+    .about-icon {
+        margin-bottom: 2.6rem;
+    }
+
+    .about-heading {
+        margin-bottom: 2.6rem;
+    }
+
+    .grid-item-1,
+    .grid-item {
+        padding: 4rem 2rem;
+
+    }
+
+    .customer-number {
+        font-size: 9rem;
+    }
+
+    .customer-heading {
+        font-size: 3.6rem;
+    }
+
+    .price-box {
+        padding: 3rem 2rem;
+    }
+
+    .price-row {
+        /* grid-template-columns: 1fr 1fr; */
+
+    }
+
+    .about-text {
+        font-size: 4rem;
+    }
+
+    .nutrition-heading {
+        margin-top: 1.6rem;
+    }
+
+    .nutrition-para {
+        margin-top: 1.6rem;
+    }
+}
+
+@media(max-width:60.5em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media(max-width:60.5em) {
+    .about-text-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Nutritional-diet {
+        grid-column: 1 / -1;
+        justify-self: center;
+
+    }
+
+    .price-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .medium {
+        grid-column: 1/-1;
+    }
+
+
+}
+
+@media(max-width:52em) {
+
+    .section-header {
+        background-position: center;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hero-text-box {
+        max-width: 500px;
+    }
+
+    .primary-heading {
+        font-size: 5.6rem;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+
+    .customer-text-box .primary-heading {
+        font-size: 5rem;
+    }
+
+    .customers {
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+
+    .about-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .nutrition {
+        grid-template-columns: 1fr;
+    }
+
+    .main-footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-detail-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media(max-width:37em) {
+    .mw-450 {
+        max-width: 370px;
+    }
+
+    .primary-heading {
+        font-size: 4rem;
+    }
+
+    .about-text-box {
+        grid-template-columns: 1fr;
+    }
+
+    .price-row {
+        grid-template-columns: 1fr;
+    }
+
+    .about-text {
+        font-size: 4rem;
+
+    }
+
+    .customer-text-box .primary-heading {
+        font-size: 4.6rem;
+    }
+
+    .discover-heading {
+        font-size: 2.6rem;
+    }
+
+    .discover-head-para {
+        width: 100%;
+    }
+
+    .traning {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
+
+@media(max-width:37em) {
+    .main-footer {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+}
