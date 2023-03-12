@@ -88,11 +88,13 @@ body {
 .section-header {
     padding: 2rem 0;
     background-image: url("img/hero-bg.png");
-    height: 120vh;
+    /* height: 90rem; */
     width: 100%;
     background-size: cover;
-    
+
 }
+
+/* .hero-text-box */
 
 
 
@@ -163,6 +165,7 @@ nav {
     max-width: 600px;
     margin-top: 13rem;
     color: #fff;
+    margin-bottom: 25rem;
 }
 
 .hero-text-box h3 {

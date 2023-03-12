@@ -6,6 +6,11 @@
         margin: auto;
     }
 
+    .hero-text-box {
+
+        margin-bottom: 15rem;
+    }
+
 }
 
 @media(max-width: 68.5em) {
@@ -187,5 +192,10 @@
     .main-footer {
         grid-template-columns: 1fr;
         justify-content: center;
+    }
+
+    .primary-heading {
+        max-width: 80%;
+        font-size: 4rem;
     }
 }
